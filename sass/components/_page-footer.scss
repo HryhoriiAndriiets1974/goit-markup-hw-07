@@ -1,0 +1,46 @@
+.page-footer {
+  background: var(--bg-color);
+  padding: 60px 0;
+}
+.footer-contact {
+  color: var(--for-black-color);
+  font-size: 14px;
+  line-height: 1.714;
+  margin-top: 20px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logo__text--light {
+  color: #fff;
+}
+.footer-contact:hover,
+.footer-contact:focus,
+.footer-contact .mailto:hover,
+.footer-contact .mailto:focus,
+.footer-contact .tel:hover,
+.footer-contact .tel:focus {
+  color: var(--accent-color);
+}
+.footer-contact .mailto,
+.footer-contact .tel {
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.end {
+  display: flex;
+  justify-content: flex-start;
+}
+.soc-title {
+  font-size: 14px;
+  line-height: 1.17;
+  margin-bottom: 20px;
+}
+.footer-social {
+  width: 206px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  text-transform: uppercase;
+  color: var(--for-black-color);
+  margin-left: 70px;
+}
