@@ -9,16 +9,16 @@
   margin-top: 20px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-contact:hover,
-.footer-contact:focus,
-.footer-contact .mailto:hover,
-.footer-contact .mailto:focus,
-.footer-contact .tel:hover,
-.footer-contact .tel:focus {
+.address:hover,
+.address:focus,
+.mailto:hover,
+.mailto:focus,
+.tel:hover,
+.tel:focus {
   color: var(--accent-color);
 }
-.footer-contact .mailto,
-.footer-contact .tel {
+.mailto,
+.tel {
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
