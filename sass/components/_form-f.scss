@@ -20,17 +20,15 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  &:focus,
+  &:hover {
+    outline: 1px solid var(--accent-color);
+    color: #e5e5e5;
+    transition-property: outline, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
-
-.form-f__input:hover,
-.form-f__input:focus {
-  outline: 1px solid var(--accent-color);
-  color: #e5e5e5;
-  transition-property: outline, color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .form-f__title {
   font-size: 14px;
   line-height: 1.17;

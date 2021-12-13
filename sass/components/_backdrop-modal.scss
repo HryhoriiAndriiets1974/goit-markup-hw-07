@@ -35,8 +35,8 @@
   left: 490px;
   stroke: #000;
   stroke-opacity: 0.1;
-}
-.modal__exit:hover {
-  stroke: #2196f3;
-  stroke-opacity: 1;
+  &:hover {
+    stroke: #2196f3;
+    stroke-opacity: 1;
+  }
 }

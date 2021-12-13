@@ -54,7 +54,6 @@
   transition-property: border-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  /*                                                         Префікси */
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -95,13 +94,13 @@
   cursor: pointer;
   resize: none;
   margin-bottom: 20px;
-}
-.form__textarea:hover,
-.form__textarea:focus {
-  outline: 1px solid var(--accent-color);
-  transition-property: outline;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    outline: 1px solid var(--accent-color);
+    transition-property: outline;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 .form__label-check {
   display: inline-block;
@@ -153,12 +152,12 @@
   margin-top: 30px;
   margin-left: 124px;
   cursor: pointer;
-}
-.form__btn:hover,
-.form__btn:focus {
-  background: #188ce8;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition-property: box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:focus,
+  &:hover {
+    background: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
