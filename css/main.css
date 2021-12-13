@@ -76,6 +76,15 @@ body {
   margin: 0 auto;
 }
 
+.container__end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 .hidden-elem {
   width: 1px;
   height: 1px;
@@ -659,12 +668,12 @@ header .logo {
   border: 1px solid #2196f3;
 }
 
-.page-footer {
+.footer {
   background: var(--bg-color);
   padding: 60px 0;
 }
 
-.footer-contact {
+.footer__contact {
   color: var(--for-black-color);
   font-size: 14px;
   line-height: 1.714;
@@ -673,32 +682,26 @@ header .logo {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address:hover,
-.address:focus,
-.mailto:hover,
-.mailto:focus,
-.tel:hover,
-.tel:focus {
+.footer__address {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+}
+.footer__address:hover, .footer__address:focus {
   color: var(--accent-color);
 }
 
-.mailto,
-.tel {
+.footer__link {
   color: rgba(255, 255, 255, 0.6);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.end {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+.footer__link:focus, .footer__link:hover {
+  color: var(--accent-color);
 }
 
-.soc-title {
+.footer-social__title {
   font-size: 14px;
   line-height: 1.17;
   margin-bottom: 20px;

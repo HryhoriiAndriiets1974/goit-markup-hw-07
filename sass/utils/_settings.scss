@@ -4,7 +4,7 @@ img {
   height: auto;
 }
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
   background: var(--for-black-color);
   color: var(--title-text-color);
   font-size: normal;
@@ -32,7 +32,10 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
-
+.container__end {
+  display: flex;
+  justify-content: flex-start;
+}
 .hidden-elem {
   width: 1px;
   height: 1px;
